@@ -32,4 +32,4 @@ Print
 ```
 
 ## notes
-The hardest thing doing this project is working with docx itself, couldnt find a better way to write or replace a text word in a table. To target specific table, rows, column, and then to add the calculation is quite confusing enough. built with python 
+The hardest thing doing this project is working with docx itself, couldnt find a better way to write or replace a text word in a table. To target specific table, rows, column, and then to add the calculation is quite confusing enough. built with python . the readme generate using ai
