@@ -1,41 +1,37 @@
 # Book Invoice Maker
 
-A simple Python application for generating printable **Sebuk Harga** invoices.
+A simple Python application for generating printable book invoices.
 
-This project was created to make it easier for my father to prepare invoices. Previously, he would write each invoice by hand using a DOCX template. This application keeps the same invoice format while allowing him to enter the book details, calculate the totals automatically, and generate a DOCX document ready for printing.
+## About
 
-## ✨ Features
+I made this project for my father to make preparing book invoices a little easier.
 
-- Enter book/item details
-- Automatically calculate quantities and prices
+Previously, he would prepare his invoices using a DOCX document. Sometimes this meant writing the invoice by hand with a pen, and other times typing the details using a laptop and keyboard.
+
+The problem was that the calculations still had to be done manually. Even when using the laptop, the DOCX document itself would not automatically calculate the quantities, prices, and totals.
+
+So I built **Book Invoice Maker** around the invoice format he was already using.
+
+Now, he can enter the book details, quantities, and prices, and the application handles the calculations and generates a completed DOCX invoice that is ready to print.
+
+## Features
+
+- Enter book details
+- Enter quantities and prices
+- Automatically calculate totals
 - Generate a formatted DOCX invoice
-- Uses the existing Sebuk Harga invoice template
-- Ready to print
+- Keeps the existing invoice format
+- Generate invoices ready for printing
 
-## 🛠️ Built With
+## How It Works
 
-- Python
-- `python-docx`
-- [Add other libraries here if needed]
-
-## 📄 How It Works
-
-1. Enter the book/item name.
-2. Enter the quantity and price.
-3. The application calculates the totals automatically.
-4. Generate the Sebuk Harga document.
-5. Print the generated DOCX.
-
-## 🎯 Why I Made This
-
-This is a small personal project made for my father.
-
-He normally prepares his Sebuk Harga invoices by hand, so I wanted to make the process a little faster and less repetitive while keeping the invoice format he was already familiar with.
-
-## 📌 Project Status
-
-This is a simple personal utility and is mainly built for my father's use.
-
----
-
-Made with Python ❤️
+```text
+Enter book details
+        ↓
+Enter quantities & prices
+        ↓
+Calculate totals automatically
+        ↓
+Generate DOCX invoice
+        ↓
+Print
