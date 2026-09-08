@@ -1,37 +1,35 @@
 # Book Invoice Maker
 
-A simple Python application for generating printable book invoices.
+A Python application for generating printable book invoices with automatic calculations and DOCX document generation.
 
-## About
+## Overview
 
-I made this project for my father to make preparing book invoices a little easier.
+Book Invoice Maker simplifies the process of preparing book invoices using a predefined invoice template.
 
-Previously, he would prepare his invoices using a DOCX document. Sometimes this meant writing the invoice by hand with a pen, and other times typing the details using a laptop and keyboard.
-
-The problem was that the calculations still had to be done manually. Even when using the laptop, the DOCX document itself would not automatically calculate the quantities, prices, and totals.
-
-So I built **Book Invoice Maker** around the invoice format he was already using.
-
-Now, he can enter the book details, quantities, and prices, and the application handles the calculations and generates a completed DOCX invoice that is ready to print.
+Previously, invoices were prepared using a DOCX document, requiring the user to manually enter book details and calculate quantities, prices, and totals. This application automates the calculation process while preserving the existing invoice format.
 
 ## Features
 
-- Enter book details
+- Enter book and invoice details
 - Enter quantities and prices
-- Automatically calculate totals
-- Generate a formatted DOCX invoice
-- Keeps the existing invoice format
-- Generate invoices ready for printing
+- Automatically calculate subtotals and totals
+- Generate formatted DOCX invoices
+- Preserve the existing invoice layout
+- Generate documents ready for printing
 
-## How It Works
+## Workflow
 
 ```text
-Enter book details
+Enter Invoice Details
         ↓
-Enter quantities & prices
+Enter Book & Pricing Information
         ↓
-Calculate totals automatically
+Calculate Totals Automatically
         ↓
-Generate DOCX invoice
+Generate DOCX Invoice
         ↓
 Print
+
+
+## Features
+The hardest thing doing this project is working with docx itself, couldnt find a better way to write or replace a text word in a table. To target specific table, rows, column, and then to add the calculation is quite confusing enough
